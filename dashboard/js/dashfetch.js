@@ -22,7 +22,7 @@ $('#myUL').hide();
 
 
 var ourRequest = new XMLHttpRequest();
-ourRequest.open('GET', 'http://localhost:3000/results');
+ourRequest.open('GET', 'https://quizapp-server.onrender.com/results');
 ourRequest.onload = function () {
     var ourData = JSON.parse(ourRequest.responseText);
     console.log(ourData);

@@ -40,7 +40,7 @@ $('#login_icon').click(function () {
 
     //$('.username').text(userInfo.email);
     // Fetching quetions data from json-server.
-    let url = 'https://api.npoint.io/4229eba5a77d58c154b1/' + localStorage.getItem('subject').toLowerCase();
+    let url = 'https://quizapp-server.onrender.com/' + localStorage.getItem('subject').toLowerCase();
     $.ajax({
         url: url,
         type: "get",
@@ -280,7 +280,7 @@ $('#login_icon').click(function () {
         //saving score to db.json
         $.ajax({
             type: "POST",
-            url: "https://api.npoint.io/4229eba5a77d58c154b1/results",
+            url: "https://quizapp-server.onrender.com/results",
             dataType: "json",
             async: false,
             success: function (msg) {

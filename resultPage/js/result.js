@@ -45,7 +45,7 @@ $("#login_button").toggle();
 
 
     // Getting result data from json to generate analysis.
-    let url = 'https://api.npoint.io/4229eba5a77d58c154b1/results';
+    let url = 'https://quizapp-server.onrender.com/results';
     $.ajax({
         url: url,
         type: "get",
@@ -68,7 +68,7 @@ $("#login_button").toggle();
         } 
     }
    
-    let url2 = 'https://api.npoint.io/4229eba5a77d58c154b1/' + localStorage.getItem('subject').toLowerCase();
+    let url2 = 'https://quizapp-server.onrender.com/' + localStorage.getItem('subject').toLowerCase();
     $.ajax({
         url: url2,
         type: "get",
