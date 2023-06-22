@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "email": "urv@test.com",
+      "password": "1",
+      "phone": "1asdasdasd",
+      "id": 1
+    },
+    {
+      "email": "urv@test.com",
+      "password": "1",
+      "phone": "1asdasdasd",
+      "id": 3
+    },
+    {
+      "email": "urv@test.com",
+      "password": "1",
+      "phone": "1asdasdasd",
+      "id": 3
+    },
+    {
+      "email": "krupesh@test.com",
+      "password": "krupesh123",
+      "phone": "0987654321",
+      "id": 4
+    },
+    {
+      "email": "chirag@test.com",
+      "password": "123456",
+      "phone": "85208522012",
+      "id": 5
+    },
+    {
+      "email": "lol@test.com",
+      "password": "123456",
+      "phone": "1234567895",
+      "id": 6
+    },
+    {
+      "email": "krupa852@test.com",
+      "password": "123456",
+      "phone": "1234567895",
+      "id": 7
+    }
+  ]
+}
